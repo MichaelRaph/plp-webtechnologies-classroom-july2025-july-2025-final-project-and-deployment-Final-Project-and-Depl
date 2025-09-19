@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Book Appointment — Smile Well Dental Clinic</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">SMILE <span>WELL</span></a>
+      <button id="nav-toggle" aria-label="Open navigation" aria-expanded="false">&#9776;</button>
+      <nav id="main-nav" class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="services.html" class="nav-link">Services</a></li>
+          <li><a href="book.html" class="nav-link cta">Book Appointment</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container booking-page">
+    <h1>Book an Appointment</h1>
+    <p class="lead">Fill the form below </p>
+
+    <div class="booking-grid">
+      <form id="booking-form" class="booking-form" novalidate>
+        <label for="name">Full name</label>
+        <input id="name" name="name" type="text" placeholder="John Doe" required aria-required="true" />
+
+        <label for="phone">Phone number</label>
+        <input id="phone" name="phone" type="tel" placeholder="09112345678" required aria-required="true" />
+
+        <label for="email">Email (optional)</label>
+        <input id="email" name="email" type="email" placeholder="you@example.com" />
+
+        <label for="complaint">Main complaint / Request</label>
+        <textarea id="complaint" name="complaint" rows="4" placeholder="Describe your issue..." required aria-required="true"></textarea>
+
+        <button type="submit" class="btn">Submit</button>
+        
+
+        <div id="form-error" class="form-error" role="alert" aria-live="polite" hidden></div>
+      </form>
+
+      <aside class="contact-card">
+        <h3>Contact & Hours</h3>
+        <p><strong>Phone:</strong> 09117371171</p>
+        <p><strong>Email:</strong> smilewell405@gmail.com</p>
+        <p><strong>Address:</strong> Lifeplaza 405, Oron Road, Uyo</p>
+        <p><strong>Hours:</strong> Mon - Fri • 8:00 — 17:00  </p> <p style="margin-left: 55px;"> 8:00 — 14:00 on Sat</p>
+        <p class="cta-whatsapp"><a href="https://wa.me/2349117371171" target="_blank">Chat on WhatsApp</a></p>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>SMILE WELL DENTAL CLINIC</h3>
+        <p>Call us on 09117371171</p>
+      </div>
+      <div>
+        <h4>Motto</h4>
+        <p><em>WE GO THE EXTRA MILE TO MAKE YOU SMILE.</em></p>
+      </div>
+      <div>
+        <h4>Connect</h4>
+        <p><a href="https://wa.me/2349117371171" target="_blank" rel="noopener">WhatsApp us</a></p>
+      </div>
+    </div>
+    <div class="container copyright">
+      <small>© <span id="year-4"></span> Smile Well Dental Clinic</small>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>

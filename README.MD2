@@ -1,0 +1,69 @@
+Smile Well Dental Clinic Website
+
+LIVE URL :
+
+📌 Project Overview
+
+The Smile Well Dental Clinic Website is a responsive, multi-page website designed to showcase the clinic’s services, core values, and allow patients to conveniently book appointments online.
+It is built using HTML5, CSS3, and JavaScript with clean, semantic structure and responsive design principles.
+
+The purpose of this project is to:
+
+Provide visibility for Smile Well Dental Clinic.
+
+Allow patients to learn about the clinic, services, and core values.
+
+Enable patients to book appointments online via a simple form.
+
+🌍 Pages Overview
+1. Home Page (index.html)
+
+Displays a welcome message: “Welcome to Smile Well Dental Clinic”.
+
+Includes a patient-friendly hero section with an image.
+
+Clear navigation to all other pages.
+
+2. About Page (about.html)
+
+Showcases the clinic’s location:
+Life Plaza, 405 Oron Road by Dan Bassey Street, Uyo, Akwa Ibom State.
+
+Displays core values, motto, and slogan:
+“We go the extra mile to make you smile.”
+
+3. Services Page (services.html)
+
+Lists all dental procedures offered:
+
+Consultation
+
+Scaling and Polishing
+
+Teeth Whitening
+
+Teeth Replacement
+
+Extraction
+
+Root Canal Therapy
+
+Braces Treatment
+
+Implant
+
+Crown & Bridges
+
+(and more…)
+
+4. Book Appointment Page (appointment.html)
+
+Contains an appointment form with validation:
+
+Name (letters only)
+
+Number (digits only)
+
+Complaints (free text)
+
+On submission, redirects patients to WhatsApp chat with the clinic.
