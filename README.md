@@ -1,93 +1,93 @@
 
 
 LIVE URL : https://michaelraph.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+Smile Well Dental Clinic Website
+📌 Project Overview
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
+The Smile Well Dental Clinic Website is a responsive, multi-page website designed to showcase the clinic’s services, core values, and allow patients to conveniently book appointments online.
+It is built using HTML5, CSS3, and JavaScript with clean, semantic structure and responsive design principles.
 
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
+The purpose of this project is to:
 
----
+Provide visibility for Smile Well Dental Clinic.
 
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
+Allow patients to learn about the clinic, services, and core values.
 
-Before you write any code, take time to plan:
+Enable patients to book appointments online via a simple form.
 
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
+🌍 Pages Overview
+1. Home Page (index.html)
 
-**Goal:** Show intentional structure and user journey across the site.
+Displays a welcome message: “Welcome to Smile Well Dental Clinic”.
 
----
+Includes a patient-friendly hero section with an image.
 
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
+Clear navigation to all other pages.
 
-Using your plan, begin building:
+2. About Page (about.html)
 
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
+Showcases the clinic’s location:
+Life Plaza, 405 Oron Road by Dan Bassey Street, Uyo, Akwa Ibom State.
 
-Each page should:
+Displays core values, motto, and slogan:
+“We go the extra mile to make you smile.”
 
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
+3. Services Page (services.html)
 
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
+Lists all dental procedures offered:
 
----
+Consultation
 
-## 🛠️🚀 Part 3: Best Practices for Code Organization
+Scaling and Polishing
 
-Before deployment, refactor your project to follow production-friendly practices:
+Teeth Whitening
 
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
+Teeth Replacement
 
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
+Extraction
 
----
+Root Canal Therapy
 
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
+Braces Treatment
 
-Once your project is complete, choose a method to **host your site online**.
+Implant
 
-You can use:
+Crown & Bridges
 
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
+(and more…)
 
-Deploy your project and confirm that:
+4. Book Appointment Page (appointment.html)
 
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
+Contains an appointment form with validation:
 
-**Goal:** Publish your work online and make it accessible to the world.
+Name (letters only)
 
----
+Number (digits only)
 
-## Deliverables
+Complaints (free text)
 
-1. A GitHub repository containing:
+On submission, redirects patients to WhatsApp chat with the clinic.
 
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
+Displays clinic contact information (phone number, email).
 
----
+🎨 Branding and Styling
 
-## Outcome
+Primary Color: Blue (#004aad)
 
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+Accent Color: Yellow (#ffcc00)
+
+Consistent header, footer, and navigation across all pages.
+
+Responsive layout for desktop, tablet, and mobile devices.
+
+Hover effects for navigation and call-to-action buttons.
+
+⚡ Features
+
+Responsive Navigation Menu (collapsible on mobile).
+
+Form Validation (ensures correct input before submission).
+
+Interactive Hover Effects for buttons and links.
+
+Consistent Layout across all pages.
